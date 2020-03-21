@@ -1,0 +1,72 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg">
+    <div id="main" class="container-fluid bg-secondary">
+        <!--Heading-->
+        <div class="container">
+            <h1 id="header">
+                Pomodoro Clock
+            </h1>
+        </div>
+        <!--First box of session and break-->
+        <div class="container ml-5">
+            <div class="container row ml-5 text-center pt-4">
+                <div class="col-sm-6 pl-5">
+                    <h2 class="text-light font-weight-bold ">
+                        Session
+                    </h2>
+                </div>
+                <div class="col-sm-6 pl-5">
+                    <h2 class="text-light font-weight-bold ">
+                        Break
+                    </h2>
+                </div>
+                <div class="col-sm-6 pl-5 value-selector">
+                    <button id="ses-dec" class="btn btn-outline-light">-</button>
+                    <h2 id="session" class="text-light font-weight-bold ml-3 mr-3">
+                        25
+                    </h2>
+                    <button id="ses-inc" class="btn btn-outline-light">+</button>
+                </div>
+                <div class="col-sm-6 pl-5 value-selector">
+                    <button id="brk-dec" class="btn btn-outline-light">-</button>
+                    <h2 id="break" class="text-light font-weight-bold ml-3 mr-3 ">
+                        05
+                    </h2>
+                    <button id="brk-inc" class="btn btn-outline-light">+</button>
+                </div>
+                <!--Second box of indicator and clock-->
+                <div id="clock-container" class=" container text-center text-light">
+                    <div id="indicator" class="pt-2">Session</div>
+                    <div id="clock" class="pt-2">25:00</div>
+                </div>
+                <!--Third box of buttons-->
+                <div class="container text-center mt-5 text-light">
+                    <button id="start" type="button"
+                        class="btn btn-outline-light ml-5 mt-5 mr-5 font-weight-bold">Start</button>
+                    <button id="pause" type="button"
+                        class="btn btn-outline-light ml-5 mt-5 mr-5  font-weight-bold">Pause</button>
+                    <button id="stop" type="button"
+                        class="btn btn-outline-light ml-5 mt-5 mr-5  font-weight-bold">Stop</button>
+                    <button id="reset" type="button"
+                        class="btn btn-outline-light ml-5 mt-5 mr-5  font-weight-bold">Reset</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src=" main.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+
+</html>

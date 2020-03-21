@@ -1,0 +1,41 @@
+#main {
+    height: 100vh;
+    background-image: url(background.png);
+    background-size: cover;
+}
+
+h2,
+div,
+button {
+    text-shadow: 0.07em 0.07em black;
+}
+
+button {
+    box-shadow: 0.1em 0.1em black;
+}
+
+#header {
+    color: white;
+    text-align: center;
+    padding: 0.4em;
+    font-size: 4em;
+    text-shadow: 0.07em 0.07em black;
+}
+
+.value-selector {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#clock {
+    font-size: 7em;
+}
+
+#indicator {
+    font-size: 3em;
+}
+
+#clock-container {
+    margin-left: 20px;
+}
